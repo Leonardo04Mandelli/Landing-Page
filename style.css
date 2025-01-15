@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+    text-decoration: none;
+    border: none;
+}
+
+body{
+    background-color: #DCDCDC;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 29, 29);
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 0.3rem 3rem 0.3rem 3rem;
+    flex-wrap: wrap;
+}
+
+#logo-wedoiti{
+    max-width: 90px;
+    border-radius: 5px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+option{
+    color: white;
+    background-color: rgb(36, 29, 29);
+}
+
+.contato-telefone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+span{
+    color: white;
+    font-size: 16px;
+}
+
+.link{
+    color: white;
+}
+
+.link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.link-fale-conosco{
+    color: white;
+    background-color: rgb(215, 46, 4);
+    border-radius: 5px;
+    padding: 0.6rem 2.2rem 0.6rem 2.2rem;
+}
+
+.link-fale-conosco:hover{
+    color: white;
+    background-color: rgb(215, 46, 4);
+    border-radius: 5px;
+    padding: 0.6rem 2.2rem 0.6rem 2.2rem;
+    text-decoration: underline;
+}
+
+#telefone-icone{
+    max-width: 50px;
+    border: none;
+}
+
+#select{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#select:hover{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+main{
+    padding: 4rem 10rem 4rem 10rem;
+    align-items: center;
+}
+
+.container-secao-1-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1rem;
+    gap: 10rem;
+    flex-wrap: wrap;
+}
+
+.primeira-secao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.segunda-secao{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.terceira-secao{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+h1{
+    color: rgb(215, 46, 4);
+    font-size: 45px;
+    font-weight: 500;
+}
+
+strong{
+    color:rgb(197, 9, 9);
+}
+
+p{
+    font-size: 20px;
+    color: rgb(36, 29, 29);
+    padding-top: 2rem;
+}
+
+.segunda-secao img{
+    max-width: 600px;  
+    border-radius: 20%;
+    border-style: solid;
+    border-color: rgb(36, 29, 29);
+}
+
+input[type="email"]{
+    border-radius: 5px;
+    padding: 0.3rem 1.8rem 0.3rem 1rem;
+    width: 20rem;
+}
+
+#quero-saber-mais{
+    color: white;
+    background-color: rgb(215, 46, 4);
+    border-radius: 5px;
+    padding: 0.3rem 1.8rem 0.3rem 1.8rem;
+    text-transform: uppercase;
+}
+
+#quero-saber-mais:hover{
+    color: white;
+    background-color: rgb(215, 46, 4);
+    border-radius: 5px;
+    padding: 0.3rem 1.8rem 0.3rem 1.8rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: rgb(79, 71, 71);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem 2rem 4rem;
+    gap: 1px;
+}
+
+footer p{
+    color:white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
